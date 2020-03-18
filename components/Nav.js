@@ -23,9 +23,11 @@ const NavBar = () => {
 
     return (
         <Navbar color='dark' dark={true} expand='md'>
-            <Link href='/'>
-                <NavbarBrand>SO-COVID19</NavbarBrand>
-            </Link>
+            <NavbarBrand>
+                <Link href='/'>
+                    <span>SO-COVID19</span>
+                </Link>
+            </NavbarBrand>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar={true}>
                 {!isLoggedIn ? (
