@@ -25,3 +25,13 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Contributions
+
+You are welcomed to contribute.
+
+### Git workflow
+
+this repo uses gitflow workflow. If you are not familiar with read about it [here](https://nvie.com/posts/a-successful-git-branching-model/).
+
+
